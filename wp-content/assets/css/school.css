@@ -1,0 +1,412 @@
+.state-submitted {
+    display: none;
+  }
+  
+  .bschool-optin6__heading {
+    font-size: 42px!important;
+    line-height: 52px!important;
+    font-family: flama-book, sans-serif!important;
+    text-transform: uppercase;
+    letter-spacing: 1px!important;
+    font-weight: 400!important;
+  }
+  
+  .entry-banner-content {
+    width: 90vw;
+    margin-left: 5vw!important;
+    margin-top: 5vw!important;
+  }
+  
+  #page-b-school .entry-banner-content .entry-banner-content__first {
+    margin: 0;
+  }
+  
+  .entry-banner-content h1 {
+    margin: 10px 0;
+    font-size: 3.5rem;
+  }
+  
+  .entry-banner-content p.margin-fix {
+    margin-top: 8px;
+  }
+  
+  div.entry-banner-content p {
+    font-size: .98rem;
+  }
+  
+  .entry-banner-content .bschool-btn {
+    font-family: "Gotham A", "Gotham B";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 42px;
+    border: 1.5px solid white;
+    margin-top: 10px;
+    color: black;
+    background: white;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 4px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+    .entry-banner-content .bschool-btn:hover {
+      opacity: .8;
+    }
+  
+  .entry-banner-content .bschool-btn.transparent {
+    background: transparent;
+    color: white;
+  }
+  
+    .entry-banner-content .bschool-btn.transparent:hover {
+      opacity: 1;
+      background: black;
+      border-color: black;
+    }
+  
+  .down-arrow-hero {
+    left: 50%!important;
+    right: unset!important;
+    transform: translateX(-50%);
+    bottom: 8vh!important;
+  }
+  
+    .down-arrow-hero svg path {
+      fill: white;
+    }
+  
+  .section-what-is-bschool h5 {
+    font-family: "Gotham A", "Gotham B";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+  
+  .section-what-is-bschool .bschool-anchor-btn {
+    font-size: 18px;
+    line-height: 53px;
+    border: 1.5px solid white;
+    margin-top: 10px;
+    color: black;
+    background: #fef3f1;
+    padding: 0;
+    width: 100%;
+    max-width: 279px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 4px;
+    padding: 0 12px;
+  }
+  
+    .section-what-is-bschool .bschool-anchor-btn svg {
+      max-width: 12px;
+      margin-left: 5px;
+    }
+  
+  .section-who-should-do-bschool .image-wrap {
+    background: rgb(0,0,0);
+    background-size: cover;
+    background-image: -moz-linear-gradient(0deg, rgba(0,0,0,0.6615021008403361) 0%, rgba(0,212,255,0) 25%), url(../images/b-school/katrina.png);
+    background-image: -webkit-linear-gradient(0deg, rgba(0,0,0,0.6615021008403361) 0%, rgba(0,212,255,0) 25%), url(../images/b-school/katrina.png);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6615021008403361) 0%, rgba(0,212,255,0) 25%), url(../images/b-school/katrina.png);
+  }
+  
+  .section-who-should-do-bschool .image-wrap.grace {
+    background-image: -moz-linear-gradient(0deg, rgba(0,0,0,0.6615021008403361) 0%, rgba(0,212,255,0) 25%), url(../images/b-school/grace.png);
+    background-image: -webkit-linear-gradient(0deg, rgba(0,0,0,0.6615021008403361) 0%, rgba(0,212,255,0) 25%), url(../images/b-school/grace.png);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6615021008403361) 0%, rgba(0,212,255,0) 25%), url(../images/b-school/grace.png);
+  }
+  
+  .section-who-should-do-bschool .image-wrap.dorothee {
+    background-image: -moz-linear-gradient(0deg, rgba(0,0,0,0.6615021008403361) 0%, rgba(0,212,255,0) 25%), url(../images/b-school/dorothee.png);
+    background-image: -webkit-linear-gradient(0deg, rgba(0,0,0,0.6615021008403361) 0%, rgba(0,212,255,0) 25%), url(../images/b-school/dorothee.png);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6615021008403361) 0%, rgba(0,212,255,0) 25%), url(../images/b-school/dorothee.png);
+  }
+  
+  .section-customer-reviews h4.flama-medium {
+    font-family: flama-medium, sans-serif!important;
+  }
+  
+  .section-who-should-do-bschool .image-wrap img {
+    opacity: 0;
+  }
+  
+  .section-who-should-do-bschool .text-third {
+    margin: 0!important;
+  }
+  
+  .optin-box {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.25rem;
+    color: black;
+  }
+  
+    .optin-box a {
+      color: black!important;
+      box-shadow: inset 0 -7px 0 0 #fcdfdc;
+      text-decoration: none!important;
+    }
+  
+    .optin-box a:hover {
+      background: #fcdfdc;
+    }
+  
+    .optin-box input {
+      border: 1px solid black!important;
+      padding: 0 10px!important;
+      color: #252525;
+      font-family: "Gotham A", "Gotham B";
+      font-style: normal;
+      font-weight: 400;
+      width: 100%;
+      line-height: 42px!important;
+      background-color: white;
+      margin-bottom: 8px;
+      font-size: 1rem;
+      line-height: 1.8;
+      max-width: 345px;
+    }
+  
+    .optin-box button {
+      border: 1px solid black!important;
+      padding: 0px 10px!important;
+      color: #fff;
+      font-family: "Gotham A", "Gotham B";
+      font-style: normal;
+      font-weight: 500;
+      width: 100%;
+      line-height: 42px;
+      background-color: black;
+      margin-bottom: 8px;
+      font-size: 14px;
+      letter-spacing: 2px;
+    }
+  
+    .optin-box button:hover {
+      background-color: #222222;
+      color: white;
+    }
+  
+  .section-bschool-enrollment {
+    background: #fff3f2;
+  }
+  
+    .section-bschool-enrollment .text-centered {
+      max-width: 100%;
+      padding: 0 20px;
+      text-align: center;
+    }
+  
+    .section-bschool-enrollment input {
+      border: 1px solid black!important;
+      padding: 0 10px!important;
+      color: #252525;
+      font-family: "Gotham A", "Gotham B";
+      font-style: normal;
+      font-weight: 400;
+      width: 100%;
+      line-height: 42px!important;
+      background-color: #fff3f2;
+      font-size: 1rem;
+      line-height: 1.8;
+      max-width: 345px;
+      display: block;
+      margin: 0 auto 8px auto;
+    }
+  
+    .section-bschool-enrollment button {
+      border: 1px solid black!important;
+      padding: 0px 10px!important;
+      color: #fff;
+      font-family: "Gotham A", "Gotham B";
+      font-style: normal;
+      font-weight: 500;
+      width: 100%;
+      line-height: 42px;
+      background-color: black;
+      margin-bottom: 8px;
+      font-size: 14px;
+      letter-spacing: 2px;
+      max-width: 345px;
+    }
+  
+  #colophon2, #colophon2 .copyright {
+    background: #fff3f2;
+    color: #dab4b4;
+    font-family: "Gotham A", "Gotham B"!important;
+    font-style: normal!important;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 8px!important;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+    #colophon2 ul {
+      margin: 0;
+    }
+  
+    #colophon2 a {
+      color: #dab4b4!important;
+      font-family: "Gotham A", "Gotham B"!important;
+      font-style: normal!important;
+      font-weight: 400;
+      font-size: 8px!important;
+      border-right: 1px solid #dab4b4;
+      padding: 0 .3rem;
+      letter-spacing: 1px;
+    }
+  
+      #colophon2 li:last-child a {
+        border-right: none;
+      }
+  
+  .state-submitted svg {
+    margin-right: 30px;
+  }
+  
+  .section-bschool-cost .state-submitted svg {
+    top: 0!important;
+  }
+  
+  .eea-text {
+    margin: 15px auto 0;
+    font-family: GalaxieCopernicus,Georgia,serif;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.7;
+    color: rgb(51, 51, 51);
+    max-width: 550px;
+  }
+  
+    .eea-text a {
+      box-shadow: unset;
+      text-decoration: underline!important;
+    }
+  
+  @media (min-width: 414px) {
+    .entry-banner-content .bschool-btn {
+      width: 48%;
+      padding: 0 10px;
+    }
+    .section-what-is-bschool .bschool-anchor-btn {
+      max-width: 100%;
+    }
+    #third p.scholarships a {
+      display: block;
+      margin: 0px auto;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .entry-banner-content {
+      min-width: 550px;
+      margin-left: 10vw!important;
+      margin-top: 10vw!important;
+    }
+    .entry-banner-content .bschool-btn {
+      width: 100%;
+      max-width: 245px;
+      padding: 0 10px;
+    }
+    .section-what-is-bschool .bschool-anchor-btn {
+      width: 48%;
+    }
+    .optin-box {
+      padding: 50px 100px;
+    }
+    .section-bschool-enrollment .text-centered {
+      padding: 0 50px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .optin-box {
+      padding: 50px 130px;
+    }
+    .section-customer-reviews .read-stories h4 {
+      left: -5%!important;
+      font-size: 14px!important;
+      letter-spacing: 1.1px!important;
+    }
+    .section-who-should-do-bschool .text-third {
+      margin: 0 2.6%!important;
+    }
+    .optin-box button {
+      max-width: 220px;
+    }
+    .section-bschool-enrollment button {
+      display: inline-block;
+      max-width: 220px;
+    }
+    .section-what-is-bschool .bschool-anchor-btn {
+      max-width: 245px;
+      padding: 0 12px;
+      margin-right: 4px;
+      font-size: 16px;
+    }
+    #first.section-what-is-bschool .text-half {
+      width: 46%;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .entry-banner-content p.margin-fix {
+      margin-top: 0;
+    }
+    .section-what-is-bschool .bschool-anchor-btn:last-child {
+      margin-right: 0;
+    }
+    .optin-box {
+      padding: 30px 40px;
+    }
+    .optin-box input {
+      width: 100%;
+      max-width: 220px;
+      margin-right: 4px;
+      font-size: 1rem;
+    }
+    .optin-box button {
+      display: inline-block;
+      max-width: 210px;
+    }
+    .section-bschool-enrollment input {
+      width: 100%;
+      max-width: 300px;
+      margin-right: 4px;
+      font-size: 1rem;
+      display: inline-block;
+    }
+    .section-bschool-enrollment header.text-centered {
+      max-width: 960px;
+      margin: 0px auto;
+    }
+    .section-customer-reviews .read-stories h4 {
+      font-size: 16px!important;
+      letter-spacing: 1.1px!important;
+    }
+    .section-bschool-scam .container {
+      padding: 80px 0!important;
+    }
+    .section-bschool-enrollment button {
+      display: inline-block;
+      max-width: 220px;
+    }
+  }
+  
+  @media (min-width: 1920px) {
+    .section-customer-reviews .read-stories h4 {
+      left: -4%!important;
+      font-size: 18px!important;
+    }
+  }
