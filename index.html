@@ -519,7 +519,20 @@ table.wp-block-table td{
 		<div class="site-branding">
 			<span class="site-title">
                 <a href="" rel="home">
-                <img id="logo" class="logo" src="wp-content/assets/images/white.png" style="width:200px">
+                <img id="logo" class="logo" src="wp-content/assets/images/white.png">
+                <style>
+
+                    @media only screen and (min-width: 600px) {
+        #logo{
+       width:200px;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        #logo{
+       width:100px;
+        }
+      }
+      </style>
                 </a>
                 </span>
                 <!-- <span id="logo" class="logo">Kristina Rozdovan.</span></a></span> -->
