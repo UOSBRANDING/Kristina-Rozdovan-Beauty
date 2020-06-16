@@ -386,18 +386,82 @@
                         <div class="entry-banner-content load-active-element js-load-active">
                             <h1>
                                 <span class="thisis">This is</span>
-                                <span class="how">Why</span>
+                                <span class="how">WHY</span>
                           
                                 <span class="period">.</span>
                             </h1>
+
+                            
                             <img src="wp-content/assets/images/krs.png" class="how-we-roll-marie lazyloading" alt="Marie Forleo this is how we roll." scale="0" data-was-processed="true">
-                            <p>Kristina's Education Center</p>
+                            <p id="edu">Kristina's Education Center</p>
                         </div>
                         <a class="down-arrow" href="#first">
                             <img src="https://www.marieforleo.com/wp-content/themes/marieforleo/assets/images/down-arrow.svg" alt="A down arrow to jump to content" scale="0" class="lazyloading" data-was-processed="true">
                         </a>
                     </header><!-- .entry-banner -->
-    
+    <style>
+        @media only screen and (max-width: 600px) {
+            #page-how-we-roll .entry-banner .entry-banner-content h1 {
+                color: #000;
+    font-family: flama-light;
+    font-size: 6.3vw;
+    line-height: .8;
+    margin: 0;
+    padding-left: 1vw;
+    position: absolute;
+    text-align: left;
+    text-transform: uppercase;
+    top: 30vw;
+    z-index: 1;
+            }
+            #page-how-we-roll .entry-banner .entry-banner-content h1 .how {
+    display: inline-block;
+    font-size: 30.6875vw;
+    padding-bottom: 3.125vw;
+    position: relative;
+}
+#page-how-we-roll .entry-banner .entry-banner-content .how-we-roll-marie {
+    height: 110vw;
+    position: absolute;
+    right: -32vw;
+    top: 55vw;
+    width: auto;
+    z-index: 1;
+}
+#edu{
+    font-size:34px;
+}
+#page-how-we-roll .entry-banner .entry-banner-content p {
+    color: #000;
+    font-family: galaxy-bookitalic;
+    font-size: 4.125vw;
+    left: 4vw;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 119vw;
+}
+.page-template-how-we-roll .entry-footer-links .blog{
+    height:504px;
+}
+.page-template-how-we-roll .entry-footer-links .about{
+    height:504px;
+}
+.page-template-how-we-roll .entry-footer-links .stories-from-around-the-world{
+    height:504px;
+}
+#ready{
+    font-size: 1.875rem;
+
+}
+#how-we-roll-3{
+    height:410vh;
+}
+}
+        </style>
+
+
+
                     <div id="first" class="entry-content">
                         <div id="how-we-roll-1" class="entry-section how-we-roll-section scroll-active-element vcenter-stacked">
                             <div class="background-image"></div>
@@ -420,7 +484,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="how-we-roll-3" class="entry-section how-we-roll-section scroll-active-element">
+                        <div id="how-we-roll-2" class="entry-section how-we-roll-section scroll-active-element" style="background-color:#fff2f2">
                             <div class="content">
                                 <div class="number">3</div>
                                 <h2>We’re Here To Change The Nail Business</h2>
@@ -506,7 +570,7 @@
 
                     <div class="entry-footer">
                             <div class="entry-footer-intro">
-                                <p><span>Ready to make a STEP?</span> <span>Check what do we offer!</span>
+                                <p id="ready"><span>Ready to make a STEP?</span> <span>Check what do we offer!</span>
                                 </p>
                             </div>
         
@@ -669,7 +733,7 @@
                                 <div class="collage-element collage-element-6"></div>
                             </div>
                             <div class="overlay"></div>
-                            <div class="content">
+                            <div class="content" style="color:white">
                               
                                 <h2>Ready to boost your Career?</h2>
                                 <p>Reserve your spot in the Class today!</p>
