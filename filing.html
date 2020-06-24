@@ -10941,10 +10941,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               
                                 <div class="row">
 
-                            <video playsinline="" autoplay="" loop="" muted="" height="500px">
+                            <video playsinline="" autoplay="" loop="" muted="">
                                     <source src="wp-content/assets/videos/fill.mp4" type="video/mp4" >
                                   </video>
-
+<style>
+    @media only screen and (max-width: 600px) {
+  video {
+   height: 200px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  video {
+    height: 500px;
+  }
+}
+    </style>
 
                                 </div>
 
