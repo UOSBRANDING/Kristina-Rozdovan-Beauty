@@ -10930,13 +10930,14 @@ data-namespace="paypal2">
                                                       
                                                      
                                                     </div>  
-                                                    <div class="column">
+                                             
+                                                     <div class="column">
                                                             <img src="wp-content/assets/images/cl3.jpg" style="width:100%">
-                                                            <img src="wp-content/assets/images/cl7.jpg" style="width:100%">
+                                                            <img src="wp-content/assets/images/cl7.jpg" style="width:100%" id="abs">
                                                        
                                                             
                                                            
-                                                          </div>  
+                                                          </div>   
                                                  
                                                   </div>
 
@@ -10985,7 +10986,16 @@ data-namespace="paypal2">
                                                             max-width: 50%;
                                                           }
                                                         }
-                                                        
+                                                        @media screen and (min-width: 768px) {
+#abs{
+  position:absolute;
+}
+                                                        }
+                                                        @media screen and (min-width: 1024px) {
+#abs{
+  position:unset;
+}
+                                                        }
                                                         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
                                                         @media screen and (max-width: 600px) {
                                                           .column {
@@ -10994,6 +11004,32 @@ data-namespace="paypal2">
                                                             max-width: 100%;
                                                           }
                                                         }
+                                                        @media screen and (min-width: 1024px) {
+                                                          #page-giving-back .entry-content .section-samasource{
+    height:63vw;
+}
+}
+.row {
+    width: 1034px;
+}
+
+                                            @media screen and (min-width: 768px) {
+                                                          .row{
+                                                            width: 334px;
+}
+#page-giving-back .entry-content .section-charity-water .well{
+  width:31.5vw;
+}
+}
+@media screen and (max-width: 680px) {
+                                                          .row{
+                                                            width: 100%;
+}}
+
+                                            @media screen and (min-width: 1024px) {
+                                                          .row{
+                                                            width: 100%;
+}}
                                                         </style>
 
 

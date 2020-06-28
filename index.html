@@ -499,10 +499,11 @@ table.wp-block-table td{
 }
 @media only screen and (min-width:768px) and (max-width: 1024px) {
   #deskc {
-    height: 800;
+    height: 60%;
+    width: 200%;
     margin-left: 90px;
     display: inline;
-    margin-top: 600px;
+    margin-top: 550px;
   }
   #page-front-page .entry-title{
     font-size: 7vw;
@@ -539,7 +540,7 @@ table.wp-block-table td{
                     	<div class="word-stream" id="front-3">
                      
                                 <div class="word-stream-border">
-                                    <h1 style="text-align:center;    font-family: flama-book,sans-serif;
+                                    <h1 id="first" style="text-align:center;    font-family: flama-book,sans-serif;
                                     font-style: normal;">WHAT MAKES US UNIQUE?</h1><br>
                                 </div>
                                 <div class="word-stream-box">
@@ -558,6 +559,35 @@ table.wp-block-table td{
                                             </div> -->
                                         <p></p>
                                     </div>
+                                    <style>
+                                                                                    @media only screen and (max-width: 480px) {
+                                            #first  {
+font-size:24px;
+  }
+
+
+}
+                                              @media only screen and (min-width: 768px) {
+                                                #page-front-page .word-stream-content {
+font-size:34px;
+  }
+
+
+}
+@media only screen and (min-width: 1024px) {
+
+                                                  #page-front-page .word-stream-content {
+font-size:21px;
+  }
+
+
+}
+
+}
+                                    
+                                    
+                                    </style>
+                                    
                                     <p id="word-stream-footer" class="word-stream-footer">
                                         <span class="js-fade-element-hide">It all starts with You.</span> <span class="js-fade-element-hide">Start today.</span></p>
                                 </div>
@@ -569,7 +599,7 @@ table.wp-block-table td{
             </div> 
             <style>
 
-              @media only screen and (min-width: 600px) {
+              @media only screen and (min-width: 769px) {
   .mine{
   position:absolute;
   }
@@ -625,7 +655,23 @@ table.wp-block-table td{
   </div>
 
 
+<style>
 
+@media (max-width: 1024px){
+.get-started-section .section-inner {
+    width: 100vw;
+}}
+
+@media (max-width: 769px){
+.get-started-section .section-inner {
+    width: 80vw;
+}}
+@media(max-width: 480px){
+#front-page-get-started {
+    padding: 30 10%;
+}
+}
+</style>
 
 
 
@@ -663,6 +709,31 @@ table.wp-block-table td{
 
 
 </div>
+<style>
+              @media only screen and (min-width: 767px) {
+
+  #front-page-get-started {
+    padding: 0 130px;
+}
+.side-iphone-sm {
+    height: auto;
+    width: 80vw;
+    min-width: 290px;
+    top: 3vw;
+    display:block;
+
+}
+.section-marietv get-started-section flex-vcenter{
+padding-top:10px;
+}
+.brandlogos{
+  display:none;
+}
+.text-half{
+  width:100%
+}
+}
+</style>
 
 <video playsinline autoplay loop muted controls="true">
     <source src="wp-content/assets/videos/usa1.mp4" type="video/mp4">
@@ -743,13 +814,13 @@ table.wp-block-table td{
     width: 100%;
   }
 }
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   .text-half {
     width: 50%;
     padding-left:30px;
     padding-right:30px;
   }
-}
+} */
         </style>
 
         <h2 class="flama" style="font-size: 42px;
